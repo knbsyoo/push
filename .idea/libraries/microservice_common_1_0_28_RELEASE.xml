@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="microservice-common-1.0.28-RELEASE">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/lib/microservice-common-1.0.28-RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

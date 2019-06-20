@@ -1,0 +1,23 @@
+server:
+  port: ${PORT:50012}
+  servlet:
+    context-path: /
+spring:
+  application:
+    name: dev-service-push
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    database: 0
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://192.168.1.200:50100/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
